@@ -8,7 +8,11 @@
 *.dsn
 fp-info-cache
 _autosave*.kicad_pcb
+_autosave*.kicad_sch
+\#auto*
 *.kicad_prl
+view_base-backups
+view_screen-backups
 
 # Proprietary 3d model (for KiCAD)
 **/proprietary/*.stp
@@ -27,6 +31,9 @@ build/
 #!.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+
+# Apple
+.DS_Store
 
 __pycache__
 
